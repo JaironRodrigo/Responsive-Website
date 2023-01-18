@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,400;1,700;1,900&family=Teko:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  text-decoration: none;
+  font-family: "Teko";
+}
+
+.Title-Page {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Title-icon {
+  font-size: 50px;
+  font-family: "Kanit";
+  font-weight: 900;
+  display: block;
+}
+
+.Title-initial {
+  font-size: 70px;
+  color: #40a1e8;
+}
+
+/* .social-anchor {
+  display: flex;
+  gap: 20px;
+}
+
+.Social-icon {
+  width: 30px;
+} */
+
+.nav-search {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.btn-search {
+  background-color: silver;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-family: "Teko";
+}
+
+.btn-search:hover {
+  background-color: white;
+}
+
+.menu {
+  background-color: #00008b;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Kanit";
+}
+
+.menu a:hover {
+  color: #00ff7f;
+}
