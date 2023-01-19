@@ -6,8 +6,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: linear-gradient(#000000, #00008b, #40a1e8);
+}
+
 .navbar {
-  background-color: black;
+  background-image: url(./images/wp9389225-4k-pc-universe-wallpapers.jpg);
+  background-size: cover;
   color: white;
   padding: 30px;
   text-decoration: none;
@@ -24,7 +29,6 @@
   font-size: 50px;
   font-family: "Kanit";
   font-weight: 900;
-  display: block;
 }
 
 .Title-initial {
@@ -79,4 +83,59 @@
 
 .menu a:hover {
   color: #00ff7f;
+}
+
+.footer {
+  background-color: #000000;
+  padding: 15px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-title {
+  font-size: 30px;
+  font-family: "Kanit";
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.footer-copy {
+  color: #dcdcdc;
+  font-size: 15px;
+  font-family: "Kanit";
+  font-weight: bold;
+}
+
+.social-anchor {
+  display: flex;
+  gap: 10px;
+}
+
+.Social-icon {
+  width: 30px;
+  border-radius: 10px;
+}
+
+.subTitle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 30px;
+  border-bottom: 5px solid #40a1e8;
+  border-top: 5px solid #40a1e8;
+  text-transform: uppercase;
+  font-family: "Teko";
+  font-weight: bold;
+  color: white;
 }
