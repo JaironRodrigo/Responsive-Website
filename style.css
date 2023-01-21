@@ -132,10 +132,76 @@ body {
   justify-content: center;
   font-size: 30px;
   margin-top: 30px;
+  margin-bottom: 30px;
   border-bottom: 5px solid #40a1e8;
   border-top: 5px solid #40a1e8;
   text-transform: uppercase;
   font-family: "Teko";
   font-weight: bold;
+  color: white;
+}
+
+.container {
+  padding-top: 50px;
+  padding: 30px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: "Teko";
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  align-items: start;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.container img {
+  width: 100%;
+  border: 2px double;
+  border-radius: 20px;
+}
+
+.card-news {
+  background-color: #000000;
+  border: 2px solid white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.text {
+  padding: 0 20px 20px;
+}
+
+.text h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 5px solid #40a1e8;
+  border-top: 5px solid #40a1e8;
+  text-transform: uppercase;
+  font-family: "Teko";
+  font-weight: bold;
+  color: white;
+}
+
+.text button {
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 15px;
+  text-transform: uppercase;
+  font-family: "Teko";
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 50px;
+  width: 30%;
+}
+
+.text button:hover {
+  background-color: #40a1e8;
   color: white;
 }
