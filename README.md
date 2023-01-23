@@ -28,4 +28,4 @@
 
 <p>Nesta área, ficam as notícias voltadas para a astronomia</p>
 
-<p> Veja o projeto no link: https://github.com/JaironRodrigo/Responsive-Website.git</p>
+<p> Veja o projeto no link: https://jaironrodrigo.github.io/Responsive-Website/</p>
