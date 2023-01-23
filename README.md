@@ -10,8 +10,6 @@
   <img src="./assets/images/Captura de Tela (6).png" alt=""></img>
 </p>
 
-<p>Essa é a tela inicial, com o botão "START" você inicia o jogo, abaixo é possivel ver as intruções de jogo.</p>
-
 <p align="center">
   <img src="./assets/images/Captura de Tela (9).png" alt=""></img>
 </p>
