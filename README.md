@@ -7,10 +7,6 @@
 <p>Este é um site de notícias, voltado para a Astronomia e Tecnologia, confira nas paginas abaixo:</p>
 
 <p align="center">
-  <img src="./assets/images/Captura de Tela (6).png" alt=""></img>
-</p>
-
-<p align="center">
   <img src="./assets/images/Captura de Tela (9).png" alt=""></img>
 </p>
 
